@@ -1,0 +1,14 @@
+.inline{
+  display: inline;
+  border: 2px solid green;
+}
+
+.block {
+  display: block;
+  border: 2px solid red;
+}
+
+.hidden {
+  display: none;
+  border: 2px solid blue;
+}

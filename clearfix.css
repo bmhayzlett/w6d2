@@ -1,0 +1,33 @@
+html, body{
+  height: 100%;
+  width: 100%;
+}
+
+.container{
+  width: 100%;
+  border: 1px solid red;
+  background-color: green;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  width: 236px;
+}
+
+.right{
+  float: right;
+  border: 1px solid red;
+}
+
+.left{
+  float: left;
+  border: 1px solid red;
+  padding: 0px 5px;
+}
+
+.group::after {
+  content: "";
+  display: block;
+}

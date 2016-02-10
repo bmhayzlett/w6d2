@@ -1,0 +1,15 @@
+html, body{
+  height: 200%;
+}
+
+div.container {
+  border: 2px solid blue;
+  height: 100px;
+}
+
+.myClass {
+    position: absolute;
+    border: 3px solid #73AD21;
+    top: 1px;
+    right: 1px;
+}

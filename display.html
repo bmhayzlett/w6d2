@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="display.css" charset="utf-8">
+  </head>
+
+  <body>
+    <h2>display</h2>
+
+    <div class="inline">This is an inline div</div>
+    <div class="inline">This is an inline div</div>
+    <div class="inline">This is an inline div</div>
+
+    <div class="block">This is an block div</div>
+    <div class="block">This is an block div</div>
+
+    <h1 id="header" class="">This is my hidden heading</h1>
+
+    <p>This is such an amazing p tag!!! soo amazing, </p>
+    <button id="btn"></button>
+    <script>
+    var btn = document.getElementById("btn");
+    var header = document.getElementById("header");
+
+    btn.addEventListener('click', function(){
+      header.classList.toggle('hidden');
+    })
+    </script>
+  </body>
+</html>
